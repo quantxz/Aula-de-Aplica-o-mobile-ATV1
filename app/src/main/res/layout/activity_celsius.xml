@@ -7,21 +7,31 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/txtCelsius"
+        android:id="@+id/txtPeso"
         android:layout_width="match_parent"
         android:layout_height="66dp"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Temperatura em Celsius:"
+        android:hint="Digite a seu peso:"
         android:inputType="text" />
 
+    <EditText
+        android:id="@+id/txtAltura"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Digite a sua altura:"
+        android:inputType="text" />
+
+
     <Button
-        android:id="@+id/btnCalcularCelsius"
+        android:id="@+id/btnCalcularIMC"
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="59dp"
         android:layout_weight="1"
-        android:text="Converter para Fahrenheit"/>
+        android:text="Calcular IMC"/>
 
     <TextView
         android:id="@+id/labelConversor"
@@ -38,9 +48,9 @@
     <TextView
         android:id="@+id/labelAlterarLayout"
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="64dp"
         android:layout_weight="1"
-        android:text="Alterar entre Layouts"
+        android:text="Retornar ao calculo de medias"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textAppearance="@android:style/TextAppearance.Material.Large"
@@ -53,19 +63,5 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Média" />
-
-    <Button
-        android:id="@+id/btnLayoutCelsius"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Celsius" />
-
-    <Button
-        android:id="@+id/btnLayoutParImpar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Par ou Ímpar" />
 
 </LinearLayout>

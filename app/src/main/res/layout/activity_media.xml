@@ -21,7 +21,25 @@
         android:layout_height="66dp"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Digite a 1º Nota:"
+        android:hint="Digite a 2º Nota:"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtNota3"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Digite a 3º Nota:"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtNota4"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Digite a 4º Nota:"
         android:inputType="text" />
 
     <Button
@@ -30,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="59dp"
         android:layout_weight="1"
-        android:text="@string/btn_media"/>
+        android:text="Calcular media"/>
 
     <TextView
         android:id="@+id/labelMedia"
@@ -47,34 +65,21 @@
     <TextView
         android:id="@+id/labelAlterarLayout"
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="82dp"
         android:layout_weight="1"
-        android:text="Alterar entre Layouts"
+        android:text="Alterar para calculadora de IMC"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textAppearance="@android:style/TextAppearance.Material.Large"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:gravity="center"/>
 
     <Button
         android:id="@+id/btnLayoutMedia"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_weight="1"
-        android:text="Média" />
-
-    <Button
-        android:id="@+id/btnLayoutCelsius"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Celsius" />
-
-    <Button
-        android:id="@+id/btnLayoutParImpar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Par ou Ímpar" />
+        android:text="Calculadora" />
 
 </LinearLayout>
